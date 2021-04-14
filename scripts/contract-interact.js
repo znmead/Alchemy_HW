@@ -43,6 +43,6 @@ async function updateMessage(newMessage) {
 async function main() {
     const message = await helloWorldContract.methods.message().call();
     console.log("The message is: " + message);
-    // await updateMessage("Hello Yaaar!");
+    // await updateMessage("Hello Jarvinski!");
 }
 main();
