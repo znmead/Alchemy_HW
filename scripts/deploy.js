@@ -6,6 +6,7 @@ async function main() {
     // Start deployment, returning a promise that resolves to a contract object
     const hello_world = await HelloWorld.deploy("Hello World!");
     console.log("Contract deployed to address:", hello_world.address);
+    // console.log(JSON.stringify(contract.abi));
 }
 
 main()
